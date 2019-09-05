@@ -1,0 +1,10 @@
+[submodule "themes/base16"]
+	path = themes/base16
+	url = https://github.com/htdvisser/hugo-base16-theme.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "public"]
+	path = public
+	url = git@github.com:mikegrb/mikegrb.github.io.git
+	branch = master
