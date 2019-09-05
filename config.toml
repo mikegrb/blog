@@ -2,6 +2,7 @@ baseURL = "https://michael.thegrebs.com/"
 languageCode = "en-us"
 title = "Hmmm..."
 theme = "terminal"
+disqusShortname = "mikegrb"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -15,9 +16,12 @@ theme = "terminal"
   # set theme to full screen width
   fullWidthTheme = false
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
 
 [languages]
   [languages.en]
