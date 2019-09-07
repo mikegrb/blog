@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Hmmm..."
 theme = "terminal"
 disqusShortname = "mikegrb"
+pygmentsCodeFences = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
